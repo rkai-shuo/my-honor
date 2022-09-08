@@ -1,0 +1,11 @@
+.article-bd .sam {
+  text-align: right;
+}
+.article-bd p {
+  text-indent: 2em;
+  line-height: 26px;
+  margin: 30px auto;
+}
+.article-bd .sam {
+  margin-bottom: 40px;
+}

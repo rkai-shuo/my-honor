@@ -1,0 +1,90 @@
+/* 腿部 */
+.leg {
+  width: 100%;
+  background: url(../img/banner-bg.png) repeat;
+}
+.leg-bd {
+  width: 1000px;
+  /* background-color: red; */
+  margin: 0 auto;
+  padding-bottom: 38px;
+}
+.leg-bd .leg-bd-head {
+  width: 1000px;
+  height: 36px;
+  line-height: 36px;
+  margin-bottom: 38px;
+  border-bottom: 1px solid #ddd;
+}
+.leg-bd .leg-bd-head h3 {
+  color: #333;
+}
+.leg-bd .leg-bd-head h3 span {
+  color: #82764e;
+  font-size: 14px;
+}
+.jlpbox ul {
+  height: 240px;
+  display: flex;
+  justify-content: space-between;
+}
+.jlpbox ul li {
+  width: 196px;
+  height: 240px;
+  position: relative;
+}
+.jlpbox ul li a {
+  height: 240px;
+  display: block;
+}
+.jlpbox ul li img {
+  width: 196px;
+  height: 240px;
+}
+.jlpbox ul li a .shadow {
+  width: 196px;
+  height: 240px;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.jlpbox ul li a [class*="circle"] {
+  width: 90px;
+  height: 90px;
+  border: 1px solid white;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  margin-top: -45px;
+  left: 50%;
+  margin-left: -53px;
+}
+.jlpbox ul li a .circle1 {
+  background: #fff url(../img/btn1.png) no-repeat center;
+}
+.jlpbox ul li a .circle2 {
+  background: #fff url(../img/btn2.png) no-repeat center;
+}
+.jlpbox ul li a .circle3 {
+  background: #fff url(../img/btn3.png) no-repeat center;
+}
+.jlpbox ul li a .circle4 {
+  background: #fff url(../img/btn4.png) no-repeat center;
+}
+.jlpbox ul li a .circle5 {
+  background: #fff url(../img/btn5.png) no-repeat center;
+}
+.jlpbox ul li a:hover {
+  transform: translatey(-5px);
+  box-shadow: 0px -2px 25px 3px gray;
+  transition: 0.5s;
+}
+.jlpbox ul li a p {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 180px;
+  left: 50px;
+}

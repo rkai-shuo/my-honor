@@ -1,0 +1,84 @@
+/* 初始化 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+body {
+  font-family: "微软雅黑";
+  color: #666;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+  color: #666;
+}
+a:hover {
+  color: red;
+}
+input textarea {
+  outline: none;
+}
+/* 头部 */
+.header {
+  width: 1000px;
+  height: 110px;
+  margin: 0 auto;
+}
+/* 头部logo */
+.logo {
+  float: left;
+}
+.logo img {
+  width: 203px;
+  height: 44px;
+  margin-top: 36px;
+}
+/* 搜索 */
+.search {
+  padding-left: 26px;
+  height: 26px;
+  margin-top: 43px;
+  float: right;
+  background: url(../img/weixin.png) no-repeat left center;
+  position: relative;
+  z-index: 4;
+}
+.search img {
+  position: absolute;
+  top: 26px;
+  left: -35px;
+  display: none;
+  z-index: 2;
+}
+.search a:hover + img {
+  display: block;
+}
+.search a {
+  height: 26px;
+  line-height: 26px;
+  color: #666666;
+  font-size: 14px;
+  margin-right: 18px;
+  float: left;
+}
+.right {
+  float: right;
+}
+input[type="text"] {
+  width: 152px;
+  height: 26px;
+  float: left;
+  border: 1px solid #ddd;
+  border-right: none;
+}
+input[type="submit"] {
+  width: 26px;
+  height: 26px;
+  background: #86764c url(../img/fdj.png) no-repeat center center;
+  border: none;
+}

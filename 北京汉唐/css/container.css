@@ -1,0 +1,99 @@
+/* container */
+.conainer {
+  width: 100%;
+  height: 282px;
+  background-color: blue;
+}
+.con {
+  width: 1000px;
+  height: 282px;
+  margin: 48px auto 51px;
+  display: flex;
+  justify-content: space-between;
+}
+/* 侧边栏 */
+.aside {
+  width: 376px;
+  height: 282px;
+  overflow: hidden;
+  position: relative;
+}
+.aside ul {
+  width: 1505px;
+  height: 282px;
+}
+.aside ul li {
+  float: left;
+  animation: srolling 15s steps(4) infinite;
+}
+.aside ul li img {
+  width: 376px;
+  height: 282px;
+}
+@keyframes srolling {
+  from {
+    transform: translate(0px);
+  }
+  to {
+    transform: translate(-1504px);
+  }
+}
+.aside .rbox {
+  width: 376px;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 262px;
+}
+.aside .rbox ol {
+  position: absolute;
+  left: 270px;
+  top: 5px;
+}
+.aside ol li {
+  width: 20px;
+  height: 6px;
+  line-height: 6px;
+  float: left;
+}
+.aside ol li .rolling {
+  width: 14px;
+  height: 6px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.aside ol li .rolling:hover {
+  background: brown;
+}
+/* 内容 */
+.content {
+  width: 566px;
+  height: 282px;
+  /* background-color: red; */
+}
+.conhead {
+  height: 30px;
+  border-bottom: 1px solid #dddddd;
+  display: flex;
+  justify-content: space-between;
+}
+.conhead h3 span {
+  font-size: 14px;
+  color: #82754e;
+}
+.conhead span {
+  font-size: 14px;
+}
+.content ul {
+  height: 30px;
+  margin-top: 9px;
+}
+.content ul li {
+  height: 30px;
+  border-bottom: 1px dotted #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+.content ul li span{
+  font-size: 1px;
+}

@@ -1,0 +1,41 @@
+.footer {
+  width: 100%;
+  height: 111px;
+  margin: 40px auto;
+}
+.fhead {
+  width: 1000px;
+  margin: 0 auto;
+  border-bottom: 1px solid gray;
+  margin-bottom: 34px;
+}
+.fhead span {
+  color: #82754e;
+  font-size: 14px;
+}
+.footbox {
+  margin: 0 auto;
+  width: 1000px;
+  height: 38px;
+  display: flex;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+.footbox ul {
+  height: 38px;
+  display: flex;
+}
+.footbox ul li {
+  border: 1px solid #cccccc;
+  width: 125px;
+  height: 38px;
+  animation: srolling 30s linear infinite;
+}
+@keyframes srolling {
+  from {
+    transform: translate(0px);
+  }
+  to {
+    transform: translate(-1250px);
+  }
+}

@@ -1,0 +1,99 @@
+/* 副导航 */
+.subnav {
+    border: 1px solid #666;
+    width: 270px;
+    height: 653px;
+    position: relative;
+    top: -10px;
+  }
+/* 副导航头部 */
+.subnav .sub-head {
+    width: 270px;
+    padding: 18px 0 0 20px;
+    color: #fff;
+    font-size: 14px;
+    background: linear-gradient(#d20e0f, #d30f10);
+  }
+  .subnav .subnav-head h2 {
+    font: 20px "微软雅黑";
+    text-shadow: 2px 2px 2px rgb(0 0 0 / 30%);
+  }
+  .subnav .sub-head p {
+    width: 270px;
+    height: 60px;
+    font-size: 50px;
+    color: #ff1e1e;
+  }
+  /* 副标题的列表 */
+  .subnav .sub-bd ul {
+    width: 270px;
+    height: 220px;
+    font: 16px "宋体";
+    padding: 0 0 60px;
+    line-height: 39px;
+  }
+  .subnav .sub-bd ul li {
+    position: relative;
+  }
+  .subnav .sub-bd ul li a {
+    width: 270px;
+    height: 39px;
+    padding-left: 15px;
+    display: block;
+    border-bottom: 1px solid gray;
+  }
+  /* 三角 */
+  .subnav .sub-bd ul li i {
+    width: 12px;
+    height: 12px;
+    font-size: 14px;
+    border-width: 6px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -6px;
+    border-color: transparent transparent transparent #999;
+    border-style: dashed dashed dashed solid;
+  }
+  /* 集团成员 */
+  .sub-foot {
+    width: 270px;
+    height: 70px;
+  }
+  
+  .sub-foot h3 {
+    height: 70px;
+    padding: 0 0 0 20px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #ac996d;
+    line-height: 70px;
+  }
+  .sub-foot span {
+    font-size: 14px;
+  }
+  /* 集团成员滚动图 */
+  .subfoot-bd {
+    width: 270px;
+    height: 253px;
+    padding: 12px 20px 90px;
+    overflow: hidden;
+  }
+  .subfoot-bd ul {
+    overflow: hidden;
+    height: 880px;
+  }
+  .subfoot-bd ul li {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px dashed#999;
+    animation: xsgd 12s linear infinite;
+  }
+  @keyframes xsgd {
+    from {
+      transform: translatey(0px);
+    }
+    to {
+      transform: translatey(-440px);
+    }
+  }

@@ -1,0 +1,17 @@
+/* 公司简介img */
+.nav-about {
+    width: 100%;
+    height: 140px;
+  }
+  .nav-about-son {
+    width: 1000px;
+    height: 140px;
+    margin: 0 auto;
+  }
+  /* list1 */
+  .container-list1 {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+  }
+  

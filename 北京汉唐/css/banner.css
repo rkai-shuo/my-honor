@@ -1,0 +1,83 @@
+/* 滚动图 */
+.banner {
+  width: 100%;
+  height: 449px;
+  background: url(../img/banner-bg.png);
+  position: relative;
+}
+.banner1 {
+  width: 1000px;
+  height: 449px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.banner .prev {
+  width: 40px;
+  height: 80px;
+  background: url(../img/arr.png);
+  position: absolute;
+  left: -40px;
+  top: 50%;
+  margin-top: -40px;
+  transition: 0.5s;
+  z-index: 30;
+}
+.banner1:hover .prev {
+  transform: translate(40px);
+}
+.banner .next {
+  width: 40px;
+  height: 80px;
+  background: url(../img/arr.png);
+  background-position: -40px 0;
+  position: absolute;
+  right: -40px;
+  top: 50%;
+  margin-top: -40px;
+  transition: 0.5s;
+  z-index: 30;
+}
+.banner1:hover .next {
+  transform: translate(-40px);
+}
+.banner ul {
+  width: 4000px;
+}
+.banner ul li {
+  width: 1000px;
+  height: 449px;
+  float: left;
+  animation: rolling 10s steps(4) infinite;
+}
+@keyframes rolling {
+  from {
+    transform: translate(0px);
+  }
+  to {
+    transform: translate(-4000px);
+  }
+}
+.banner ol {
+  width: 1000px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  bottom: 0px;
+  z-index: 3;
+  text-align: center;
+}
+.banner ol li {
+  line-height: 30px;
+  display: inline-block;
+}
+.banner ol li div {
+  width: 13px;
+  height: 13px;
+  margin-right: 6px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.banner ol li div:hover {
+  background-color: #950101;
+}

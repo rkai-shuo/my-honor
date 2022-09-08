@@ -1,0 +1,15 @@
+/* 脚趾 */
+.toe {
+    width: 100%;
+    height: 80px;
+    background: #82754f;
+  }
+  .toe-bd {
+    width: 1000px;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 30px;
+    color: #fff;
+  }
