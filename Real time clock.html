@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<span id="area"></span>
+		<script>
+			// var count=0
+			// var time=setInterval(()=>{
+			// 	console.log('hello');
+			// 	count++
+			// 	if(count==3){
+			// 		clearInterval(time)
+			// 	}
+			// },3000)
+			// setImmediate()
+			function fn(){
+				var d=new Date()
+				var year=d.getFullYear()
+				var month=d.getMonth()+1
+				var date=d.getDate()
+				var hour=d.getHours()
+				var minute=d.getMinutes()
+				var second=d.getSeconds()
+				area.innerHTML=`${year}年${month}月${date}日 ${hour<10 ?'0'+hour:hour}时${minute<10 ? '0'+minute:minute}分${second<10 ? '0'+second:second}秒`
+			}
+			//打开网页直接调用
+			fn()
+			setInterval(fn,1000)
+		</script>
+	</body>
+</html>
